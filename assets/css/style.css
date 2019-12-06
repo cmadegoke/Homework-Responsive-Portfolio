@@ -3,8 +3,7 @@ body{
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
-    width: 960px;
-    margin: auto;
+    
 }
 .header{
     background-color: teal;
@@ -21,15 +20,20 @@ h1{
 .line {
     border: 1px solid;
 }
-.text{
+.card-text{
     margin: 0 auto;
     padding-left: 10px;
-    color: #777777;
+    color:white;
+    font-size: 25px;;
 }
 .images{
-    padding-left: 25px;
-    padding-top: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .contact-info{
     color: black;
+}
+
+.card {
+    padding: 25px;
 }
